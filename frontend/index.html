@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Pay Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="google-pay-button-container"></div>
+    <div id="message"></div>
+
+    <!-- Google Pay API -->
+    <script async
+        src="https://pay.google.com/gp/p/js/pay.js"
+        onload="onGooglePayLoaded()">
+    </script>
+    
+    <!-- Your Google Pay integration -->
+    <script src="index.js"></script>
+</body>
+</html>
